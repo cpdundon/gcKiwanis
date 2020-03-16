@@ -1,0 +1,13 @@
+body {background-image: url('./courtney-corlew-472715-unsplash.jpg');}
+
+#title-header {
+  background-image: url('./img/courtney-corlew-472715-unsplash.jpg'); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 250px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+	padding: 40px;
+	color: black;
+	text-align: right;
+}
