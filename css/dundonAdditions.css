@@ -40,3 +40,39 @@
 	border: 0;
 	line-height: 95%;
 }
+
+.pct80-section {
+	position: relative;
+	height: 300px;
+	width: 80%;
+	left: 0;
+	margin: 0;
+	border: 1px solid red;
+}
+
+.pct20-section {
+	position: absolute;
+	width: 20%;
+	left: 0;
+}
+
+.pct60-section {
+	position: absolute;
+	width: 88%;
+	right: 0;
+	top: 0;
+	margin: 0;
+	border: 1px solid green;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.stealth {
+	opacity: 0;
+}
