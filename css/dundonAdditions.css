@@ -19,7 +19,7 @@
 }
 
 #main-title {
-	font-family: "avenirbold", Ariel Bold, sans-serif
+	font-family: "avenirbold", Ariel Bold, sans-serif;
 	box-sizing: border-box;
 	font-size: 400%;
 	margin-top: 0;
@@ -47,7 +47,8 @@
 	width: 80%;
 	left: 0;
 	margin: 0;
-	border: 1px solid red;
+	padding: 0;
+	/* border: 1px solid red; */
 }
 
 .pct20-section {
@@ -56,13 +57,14 @@
 	left: 0;
 }
 
-.pct60-section {
+.pct95-section {
 	position: absolute;
-	width: 88%;
+	width: 95%;
 	right: 0;
 	top: 0;
 	margin: 0;
-	border: 1px solid green;
+	padding: 0;
+	/* border: 1px solid green; */
 }
 
 .relative {
